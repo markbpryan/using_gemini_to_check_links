@@ -8,7 +8,7 @@ The repo contains two implementations of the solution:
 
 The notebook ingests a CSV file (by default [this example](https://github.com/markbpryan/using_gemini_to_check_links/blob/main/input_urls.csv)) with the URLs of the topics whose links will be checked. The `test_dataset_url` variable specifies the location of this CSV file.
 
-The notebook generates an interactive report where you can see which links have errors or mismatches associated with them. THe report has the following format:
+The notebook generates an interactive report where you can see which links have errors or mismatches associated with them. The report has the following format:
 
 ![Report](https://raw.githubusercontent.com/markbpryan/using_gemini_to_check_links/refs/heads/main/output_report.png)
 
