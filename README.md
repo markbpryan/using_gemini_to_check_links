@@ -4,7 +4,7 @@ Use a combination of Gemini, browser automation and glue code to navigate throug
 
 The repo contains two implementations of the solution:
 * [**WebDriver based**](https://github.com/markbpryan/using_gemini_to_check_links/blob/main/using_gemini_to_check_links.ipynb) uses [WebDriver](https://www.selenium.dev/documentation/webdriver/) for browser automation.
-* [**Playwright based**](hhttps://github.com/markbpryan/using_gemini_to_check_links/blob/main/using_gemini_to_check_links_pw.ipynb) uses [Playwright](https://playwright.dev/) for browser automation.
+* [**Playwright based**](https://github.com/markbpryan/using_gemini_to_check_links/blob/main/using_gemini_to_check_links_pw.ipynb) uses [Playwright](https://playwright.dev/) for browser automation.
 
 The notebook ingests a CSV file (by default [this example](https://github.com/markbpryan/using_gemini_to_check_links/blob/main/input_urls.csv)) with the URLs of the topics whose links will be checked. The `test_dataset_url` variable specifies the location of this CSV file.
 
