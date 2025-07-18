@@ -2,6 +2,8 @@
 
 Use a combination of Gemini and browser automation to navigate through the links in a set of topics to check whether the destination contains an error or a mismatch between the link text and prominent text at the destination. 
 
+For more details, see the [related blog](https://medium.com/google-cloud/managing-links-with-gemini-validating-for-semantic-correctness-links-9b1a7e76299f).
+
 The repo contains two implementations of the solution:
 * [**WebDriver based**](https://github.com/markbpryan/using_gemini_to_check_links/blob/main/using_gemini_to_check_links.ipynb) uses [WebDriver](https://www.selenium.dev/documentation/webdriver/) for browser automation.
 * [**Playwright based**](https://github.com/markbpryan/using_gemini_to_check_links/blob/main/using_gemini_to_check_links_pw.ipynb) uses [Playwright](https://playwright.dev/) for browser automation.
